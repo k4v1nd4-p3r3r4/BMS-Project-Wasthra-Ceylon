@@ -1,0 +1,36 @@
+.custom-card-header {
+  background: #c1f0c0;
+}
+.action-buttons {
+  margin-right: 5px;
+  /* Adjust this value as needed */
+}
+.center {
+  text-align: center;
+}
+table th {
+  text-align: center;
+  position: sticky;
+  top: 0px;
+  align-items: center;
+}
+
+table td {
+  text-align: center;
+  align-items: center;
+}
+table {
+  min-width: max-content;
+}
+.tbl-fixed {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  height: fit-content;
+  max-height: 70vh;
+}
+.custom-pagination {
+  position: sticky;
+  bottom: 0; /* Stick the Pagination component to the bottom of its container */
+  background-color: white; /* Ensure the Pagination component remains visible */
+  z-index: 1; /* Ensure the Pagination component is above other content */
+}

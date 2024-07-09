@@ -1,0 +1,17 @@
+.logo {
+  line-height: 1;
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    width: 200px;
+  }
+}
+
+.logo img {
+  max-height: 26px;
+  margin-right: 50px;
+  margin-left: 50px;
+  cursor: pointer;
+  align-items: center;
+}

@@ -1,0 +1,81 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  background: #f6f9ff;
+}
+.custom-card-header {
+  background: #c1f0c0;
+}
+.action-buttons {
+  margin-right: 5px;
+  /* Adjust this value as needed */
+}
+table th {
+  text-align: center;
+  position: sticky;
+  top: 0px;
+  align-items: center;
+}
+
+table td {
+  text-align: center;
+  align-items: center;
+}
+table {
+  min-width: max-content;
+}
+.tbl-fixed {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  height: fit-content;
+  max-height: 70vh;
+}
+.custom-pagination {
+  position: sticky;
+  bottom: 0; /* Stick the Pagination component to the bottom of its container */
+  background-color: white; /* Ensure the Pagination component remains visible */
+  z-index: 1; /* Ensure the Pagination component is above other content */
+}
+/* Add a container around the table for better responsiveness */
+.tbl-container {
+  overflow-x: auto; /* Enable horizontal scrolling for small screens */
+}
+
+/* Style adjustments for small screens */
+@media (max-width: 768px) {
+  .table {
+    width: 100%; /* Ensure table takes full width of container */
+  }
+  th,
+  td {
+    white-space: nowrap; /* Prevent text wrapping for better readability */
+  }
+}
+
+/* Style adjustments for extra small screens */
+@media (max-width: 576px) {
+  th,
+  td {
+    display: block; /* Convert table cells to block elements */
+  }
+  th {
+    position: absolute; /* Position table headers absolutely */
+    top: -9999px; /* Move them off-screen */
+    left: -9999px;
+  }
+  td {
+    border: none; /* Remove borders for better appearance */
+    border-bottom: 1px solid #ccc; /* Add bottom border for separation */
+    position: relative; /* Position table data relatively */
+    padding-left: 50%; /* Add padding for better indentation */
+    text-align: left; /* Align text to the left */
+  }
+  td:before {
+    position: absolute; /* Position pseudo-element absolutely */
+    top: 6px; /* Adjust top position for alignment */
+    left: 6px; /* Adjust left position for alignment */
+    width: 45%; /* Set width to match padding-left */
+    white-space: nowrap; /* Prevent text wrapping */
+    content: attr(data-label); /* Display content from data-label attribute */
+  }
+}

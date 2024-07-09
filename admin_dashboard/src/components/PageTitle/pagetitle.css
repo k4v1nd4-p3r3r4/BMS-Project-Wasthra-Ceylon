@@ -1,0 +1,23 @@
+#main {
+  margin-top: 60px;
+  margin-right: 60px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+  transition: all 0.3s;
+}
+
+@media (max-width: 1199px) {
+  #main {
+    padding: 20px;
+  }
+}
+.icon {
+  color: black;
+}
+
+.breadcrumb-item a {
+  cursor: pointer;
+}

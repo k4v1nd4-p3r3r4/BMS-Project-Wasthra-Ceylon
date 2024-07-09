@@ -1,0 +1,11 @@
+.clock {
+  overflow: hidden;
+  text-align: center;
+  padding-top: 60px;
+  padding-right: 20px;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #b2beb5;
+}

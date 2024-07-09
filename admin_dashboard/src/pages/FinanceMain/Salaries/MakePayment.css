@@ -1,0 +1,43 @@
+/* CSS for Payment Details section */
+.payment-details-container {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .payment-details-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .payment-details-item {
+    margin-bottom: 20px;
+  }
+
+  .h2 {
+    margin-bottom: 30px;
+  }
+
+  .payment-details-label {
+    font-weight: bold;
+  }
+  
+  .payment-details-amount {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .payment-details-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .payment-details-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,60 @@
+/* navNotice.css */
+
+.nav-link.nav-icon {
+  /* Your styles for the nav icon */
+  font-size: 22px;
+  color: white;
+  margin-right: 25px;
+  position: relative;
+  margin-top: 16px;
+}
+
+.badge.bg-danger.badge {
+  /* Your styles for the badge */
+  position: absolute;
+  inset: -2px -5px auto auto;
+  font-weight: 12px;
+  font-size: 12px;
+  padding: 3px 6px;
+}
+
+.dropdown-menu.end.dropdown-menu-arrow.notifications {
+  /* Your styles for the dropdown menu */
+  inset: 8px -15px auto auto !important;
+  width: 300px;
+}
+
+.notification-item {
+  /* Your styles for each notification item */
+  display: flex;
+  align-items: center;
+  padding: 15px 10px;
+  transition: 0.3s;
+}
+
+.notification-item i {
+  /* Your styles for the icon in each notification item */
+  margin: 0 20px 0 10px;
+  font-size: 24px;
+}
+
+.notification-item h4 {
+  /* Your styles for the heading in each notification item */
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.notification-item p {
+  /* Your styles for the paragraphs in each notification item */
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 3px;
+  color: #919191;
+}
+
+.notification-item:hover {
+  /* Your styles for the hover effect on each notification item */
+  background: #293846;
+  color: white;
+}
